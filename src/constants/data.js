@@ -1,82 +1,125 @@
 import images from './images';
 
-const wines = [
+const Paneer = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Paneer Wrap',
+    price: '$30',
+    tags: 'Paneer | ABC | CDE ',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Paneer Lababdar',
+    price: '$40',
+    tags: 'Sabji | XYZ',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Kadai Paneer Dabba Style',
     price: '$44',
     tags: 'FR | 750 ml',
   },
-  {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
 ];
 
-const cocktails = [
+const Egg = [
   {
-    title: 'Aperol Sprtiz',
+    title: 'Egg Curry',
     price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    tags: 'Egg | Villa Marchesi prosecco | soda | 30 ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Egg Bhurji",
+    price: '$32',
+    tags: 'Egg Bhurji | Sabji',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Egg Khema',
+    price: '$15',
+    tags: 'Egg Khema',
   },
   {
-    title: 'Old Fashioned',
+    title: 'Egg Lababdar',
     price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    tags: 'Lababdar | Egg',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Half Fry',
+    price: '$15',
+    tags: 'Egg fry',
   },
 ];
 
-const awards = [
+
+const Rice = [
   {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Biryani',
+    price: '$20',
+    tags: 'Rice Biryani',
   },
   {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Egg Biryani",
+    price: '$32',
+    tags: 'Egg Biryani',
   },
   {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Veg Pulav',
+    price: '$15',
+    tags: 'Pulav',
   },
   {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Sahi Veg Pulav',
+    price: '$30',
+    tags: 'Sahi Veg Pulav',
   },
 ];
 
-export default { wines, cocktails, awards };
+const Chat = [
+  {
+    title: 'Vadapav',
+    price: '$20',
+    tags: 'Bun | Vada',
+  },
+  {
+    title: "Puff",
+    price: '$10',
+    tags: 'Egg Biryani',
+  },
+  {
+    title: 'Sev puri',
+    price: '$15',
+    tags: 'Pulav',
+  },
+  {
+    title: 'Dahi Puri',
+    price: '$30',
+    tags: 'Sahi Veg Pulav',
+  },
+  {
+    title: 'Samosa',
+    price: '$30',
+    tags: 'Sahi Veg Pulav',
+  },
+];
+
+
+// const awards = [
+//   {
+//     imgUrl: images.award02,
+//     title: 'Bib Gourmond',
+//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+//   },
+//   {
+//     imgUrl: images.award01,
+//     title: 'Rising Star',
+//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+//   },
+//   {
+//     imgUrl: images.award05,
+//     title: 'AA Hospitality',
+//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+//   },
+//   {
+//     imgUrl: images.award03,
+//     title: 'Outstanding Chef',
+//     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+//   },
+// ];
+
+export default { Paneer, Egg, Rice, Chat };

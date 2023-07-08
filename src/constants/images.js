@@ -27,6 +27,12 @@ import eggbiryani from '../assets/Egg-Biryani.jpg';
 import puff from '../assets/puff.jpg';
 import sevpuri from '../assets/puri.jpg';
 import samosa from '../assets/samosa.jpg';
+import a from '../assets/a.jpg'
+import b from '../assets/b.jpg';
+import c from '../assets/c.jpg';
+import d from '../assets/d.jpg';
+import e from '../assets/e.jpg';
+import f from '../assets/f.jpg';
 
 export default {
   bg,
@@ -57,4 +63,10 @@ export default {
   samosa,
   eggbiryani,
   pin,
+  a,
+  b,
+  c,
+  d,
+  e,
+  f,
 };

@@ -1,11 +1,12 @@
 .app__specialMenu {
     flex-direction: column;
-    background: var(--color-black);
+    background-color: #000103;
 }
 
 .app__specialMenu-title {
     margin-bottom: 2rem;
     text-align: center;
+
 }
 
 .app__specialMenu-menu {
@@ -35,13 +36,15 @@
 }
 
 .app__specialMenu-menu_img {
-    width: 410px;
-    margin: 0 2rem;
+    width: 510px;
+    margin: -65px 2rem 0;
+    
 }
 
 .app__specialMenu-menu_img img {
     width: 100%;
     height: auto;
+    
 }
 
 .app__specialMenu_menu_items {
